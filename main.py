@@ -1,4 +1,5 @@
 import re
+import requests
 
 site = requests.get("https://proxyape.com/")
 sitetext = site.text
